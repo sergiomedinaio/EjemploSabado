@@ -20,6 +20,18 @@
             android:layout_height="wrap_content"
             android:text="@string/contentTitleText" />
 
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@color/red_200">
+
+            <LinearLayout
+                android:id="@+id/appContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"></LinearLayout>
+        </ScrollView>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
